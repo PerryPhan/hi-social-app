@@ -5,18 +5,22 @@
   "main": "dist/app.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/app.js",
-    "dev": "nodemon dist/app.js"
+    "start": "npx tsc && node dist/app.js",
+    "dev": "npx tsc && nodemon dist/app.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "DaiPhan",
   "license": "ISC",
   "devDependencies": {
     "@types/body-parser": "^1.19.5",
     "@types/express": "^4.17.21",
     "@types/node": "^20.11.24",
+    "@types/node-fetch": "^2.6.12",
     "nodemon": "^3.1.0",
     "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
     "typescript": "^5.4.0"
   },
   "dependencies": {
