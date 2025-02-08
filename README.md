@@ -1,0 +1,1 @@
+this is nodejs project collapse with AI
