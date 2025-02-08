@@ -1,5 +1,5 @@
 {
-  "name": "multi-channel-messaging-ts",
+  "name": "hi-social-app",
   "version": "1.0.0",
   "description": "Multi-channel messaging server in TypeScript",
   "main": "dist/app.js",
