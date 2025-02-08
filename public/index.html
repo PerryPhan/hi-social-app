@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralized Messaging API Admin Panel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Centralized Messaging API Admin Panel</h1>
+
+        <div class="message-form">
+            <h2>Send Message</h2>
+            <label for="platform">Platform:</label>
+            <select id="platform">
+                <option value="zalo">Zalo</option>
+                <option value="facebook">Facebook</option>
+                <option value="instagram">Instagram</option>
+            </select>
+
+            <label for="recipient">Recipient ID:</label>
+            <input type="text" id="recipient" placeholder="Enter recipient ID">
+
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Enter your message"></textarea>
+
+            <button id="sendMessageButton">Send Message</button>
+
+            <div id="responseArea" class="response-area">
+                <h3>API Response:</h3>
+                <pre id="apiResponse"></pre>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -9,11 +9,13 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "moduleResolution": "node"
   },
+  "lib": ["es2021", "dom"],
   "include": [
     "src/**/*"
-  ],
+, "public"  ],
   "exclude": [
     "node_modules"
   ]
